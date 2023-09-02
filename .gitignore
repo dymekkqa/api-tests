@@ -1,0 +1,6 @@
+.pytest_cache
+.env
+test_results
+tests/.pytest_cache
+tests/test.py
+logs/*
