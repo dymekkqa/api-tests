@@ -6,3 +6,4 @@ tests/test.py
 tests/__pycache__
 .idea
 logs/log_*.log
+utils/__pycache__
