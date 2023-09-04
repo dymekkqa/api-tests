@@ -4,3 +4,4 @@ test_results
 tests/.pytest_cache
 tests/test.py
 tests/__pycache__
+.idea
