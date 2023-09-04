@@ -10,9 +10,6 @@ import allure
 @allure.epic("Creating new location")
 class TestCreatePlace:
 
-    def __init__(self):
-        pass
-
     @allure.description("Creating, Updating and Deleting new location")
     def test_create_new_location(self):
         """Create new location by POST request"""
