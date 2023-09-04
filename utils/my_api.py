@@ -52,8 +52,8 @@ class GoogleMapsApi:
         put_resource = '/maps/api/place/update/json'  # address for update new location's object
         json_update_new_place = {
             "place_id": f"{place_id}",
-            "address": "100 Lenina street, RU",  # new address for new location
-            "key": f"{os.getenv('key')}"
+            "address": "100 Mickiewicz street, PL",  # new address for new location
+            "key": "qaclick123"
         }
         put_url = f"{base_url}{put_resource}{key}"
         result_put = HttpMethods.put(put_url, json_update_new_place)

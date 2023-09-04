@@ -41,7 +41,7 @@ class TestCreatePlace:
 
         result_get = GoogleMapsApi.get_new_place(place_id)
         Checking.check_status_code(result_get, 200)
-        Checking.check_json_keys_value(result_get, 'address', '100 Lenina street, RU')
+        Checking.check_json_keys_value(result_get, 'address', '100 Mickiewicz street, PL')
         Checking.validation_field(result_get, Schemas.schema_get_location)
 
         """ Delete new location by DELETE request"""
