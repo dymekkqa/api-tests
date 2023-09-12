@@ -24,7 +24,6 @@ cd ur\path\google-maps-tests-python-api
   ```
 - [ ] **add ur params to .env.example file**
 - [ ] **rename .env.example to .env**
-- [ ] **To create a folder named "logs" in the root directory of your project** 
 - [ ] **Install the dependencies from the requirements.txt file:** 
 ```sh
 pip install -r requirements.txt
