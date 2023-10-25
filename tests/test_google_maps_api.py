@@ -7,10 +7,10 @@ import allure
 """Creating, Updating and Deleting new location"""
 
 
-@allure.epic("Creating new location")
+@allure.epic("End-to-end test: Creating, Updating and Deleting new location")
 class TestCreatePlace:
 
-    @allure.description("Creating, Updating and Deleting new location")
+    @allure.description("Creating new location")
     def test_create_new_location(self):
         """Create new location by POST request"""
 
@@ -30,6 +30,14 @@ class TestCreatePlace:
 
         Checking.check_json_keys_value(result_get, 'address', '29, side layout, cohen 09')
 
+    @allure.description("Updating new location")
+    def test_update_new_location(self):
+        """Create new location by POST request"""
+
+        result_post = GoogleMapsApi.create_new_place()
+        result_post_body = result_post.json()
+        place_id = result_post_body.get("place_id")
+
         """Update new location address by PUT request"""
 
         result_put = GoogleMapsApi.update_for_address_new_place(place_id)
@@ -43,6 +51,18 @@ class TestCreatePlace:
         Checking.check_status_code(result_get, 200)
         Checking.check_json_keys_value(result_get, 'address', '100 Mickiewicz street, PL')
         Checking.validation_field(result_get, Schemas.schema_get_location)
+
+    @allure.description("Deleting new location")
+    def test_delete_new_location(self):
+        """Create new location by POST request"""
+
+        result_post = GoogleMapsApi.create_new_place()
+        result_post_body = result_post.json()
+        place_id = result_post_body.get("place_id")
+
+        """Update new location address by PUT request"""
+
+        GoogleMapsApi.update_for_address_new_place(place_id)
 
         """ Delete new location by DELETE request"""
 
