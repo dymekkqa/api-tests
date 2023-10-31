@@ -10,6 +10,7 @@ import allure
 @allure.epic("End-to-end test: Creating, Updating and Deleting new location")
 class TestCreatePlace:
 
+    @allure.title("Create new location by POST request")
     @allure.description("Creating new location")
     def test_create_new_location(self):
         """Create new location by POST request"""
@@ -30,6 +31,7 @@ class TestCreatePlace:
 
         Checking.check_json_keys_value(result_get, 'address', '29, side layout, cohen 09')
 
+    @allure.title("Updating new location by PUT request")
     @allure.description("Updating new location")
     def test_update_new_location(self):
         """Create new location by POST request"""
@@ -52,6 +54,7 @@ class TestCreatePlace:
         Checking.check_json_keys_value(result_get, 'address', '100 Mickiewicz street, PL')
         Checking.validation_field(result_get, Schemas.schema_get_location)
 
+    @allure.title("Deleting new location by DELETE request")
     @allure.description("Deleting new location")
     def test_delete_new_location(self):
         """Create new location by POST request"""
