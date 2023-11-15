@@ -5,7 +5,6 @@ tests/.pytest_cache
 tests/test.py
 tests/__pycache__
 .idea
-!logs/log_*.log
+!logs
 utils/__pycache__
-logs
-reports
+!reports
