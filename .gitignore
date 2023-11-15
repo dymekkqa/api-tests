@@ -6,5 +6,9 @@ tests/test.py
 tests/__pycache__
 .idea
 !logs
+logs/*.log
 utils/__pycache__
 !reports
+reports/*.txt
+reposrts/*.png
+reports/*.json
