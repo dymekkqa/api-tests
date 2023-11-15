@@ -12,3 +12,4 @@ utils/__pycache__
 reports/*.txt
 reposrts/*.png
 reports/*.json
+reports/*.attach
