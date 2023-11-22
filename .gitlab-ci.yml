@@ -1,0 +1,18 @@
+stages:
+  - test
+
+variables:
+  base_url: $base_url
+  key: $key
+
+test:
+  stage: test
+  script:
+    - pip install -r requirements.txt  # Установка зависимостей (если они есть)
+    - python run_api_tests.py --base_url=$base_url
+
+  after_script:
+    - apt-get update -qy
+    - apt-get install -y allure  # Установка Allure
+    - allure generate allure-results -o allure-report  # Генерация отчета
+    - allure serve allure-report  # Отображение отчета
