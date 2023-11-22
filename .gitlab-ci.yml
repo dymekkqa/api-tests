@@ -12,8 +12,10 @@ test:
     - python run_api_tests.py --base_url=$base_url
 
   after_script:
-    - apt-get update -qy
-    - apt-get install -y allure  # Установка Allure
-    - allure generate allure-results -o allure-report  # Генерация отчета
-    - allure serve allure-report  # Отображение отчета
+    - wget https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.0/allure-commandline-2.16.0.zip
+    - unzip allure-commandline-2.16.0.zip
+    - export PATH=$PATH:$PWD/allure-2.16.0/bin
+    - allure generate allure-results -o allure-report
+    - allure serve allure-report
+
 
