@@ -7,9 +7,11 @@ variables:
 
 test:
   stage: test
+  image: python:3.9  # Выберите нужную версию
   script:
-    - pip install -r requirements.txt  # Установка зависимостей (если они есть)
+    - pip install -r requirements.txt  # Установка зависимостей Python
     - python run_api_tests.py --base_url=$base_url
+
 
 # Убрать блок с Allure
 # after_script:
