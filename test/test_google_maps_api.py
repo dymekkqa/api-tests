@@ -1,4 +1,5 @@
 import allure
+
 from util.checking import Checking
 from util.my_api import GoogleMapsApi
 from util.schemas import Schemas
