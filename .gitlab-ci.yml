@@ -16,3 +16,4 @@ test:
     - apt-get install -y allure  # Установка Allure
     - allure generate allure-results -o allure-report  # Генерация отчета
     - allure serve allure-report  # Отображение отчета
+
