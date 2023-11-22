@@ -1,4 +1,4 @@
-from utils.http_methods import HttpMethods
+from util.http_methods import HttpMethods
 import os
 from dotenv import load_dotenv
 

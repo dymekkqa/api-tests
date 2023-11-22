@@ -12,7 +12,7 @@ test:
     - export base_url=$base_url
     - export key=$key
     - pip install -r requirements.txt
-    - python tests/test_google_maps_api.py
+    - python test/test_google_maps_api.py
 
 
 
