@@ -7,10 +7,13 @@ variables:
 
 test:
   stage: test
-  image: python:3.9  # Выберите нужную версию
+  image: python:3.9
   script:
-    - pip install -r requirements.txt  # Установка зависимостей Python
-    - python run_api_tests.py --base_url=$base_url
+    - export base_url=$base_url
+    - export key=$key
+    - pip install -r requirements.txt
+    - python tests/test_google_maps_api.py
+
 
 
 # Убрать блок с Allure
