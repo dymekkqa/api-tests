@@ -21,6 +21,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install Allure Commandline
+        run: |
+          sudo apt-add-repository ppa:qameta/allure
+          sudo apt-get update
+          sudo apt-get install allure
+
       - name: Run tests
         run: |
           python -m pytest test/test_google_maps_api.py -s -v --alluredir=reports
