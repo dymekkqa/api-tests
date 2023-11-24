@@ -24,10 +24,10 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Checkout (copy) gh-pages repository to GitHub runner
-          uses: actions/checkout@v2
-          with:
-            ref: gh-pages
-            path: ./.github/gh-pages
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: ./.github/gh-pages
 
       - name: Run tests
         run: |
@@ -36,11 +36,10 @@ jobs:
           BASE_URL: ${{ secrets.BASE_URL }}
           KEY: ${{ secrets.KEY }}
 
-
       - name: Copy history from gh-pages to allure-results
         run: |
           sudo mkdir -p allure-results/history
-          sudo cp -R $GITHUB_WORKSPACE/.github/workflows/gh-pages/history/* allure-results/history/
+          sudo cp -R $GITHUB_WORKSPACE/.github/gh-pages/history/* allure-results/history/
 
       - name: Generate Allure report
         run: |
