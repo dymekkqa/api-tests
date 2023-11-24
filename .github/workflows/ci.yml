@@ -29,17 +29,3 @@ jobs:
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
           KEY: ${{ secrets.KEY }}
-
-      - name: Copy history from gh-pages
-        run: |
-          sudo mkdir -p allure-results/history
-          ls -R $GITHUB_WORKSPACE/.github/gh-pages  # Проверка содержимого
-          sudo cp -R $GITHUB_WORKSPACE/.github/gh-pages/* allure-results/history/
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
-        with:
-          token: ${{ secrets.CI_TOKEN }}
-          branch: gh-pages
-          folder: allure-report
-          clean: true
