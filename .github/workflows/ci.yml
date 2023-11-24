@@ -23,7 +23,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python -m pytest test/test_google_maps_api.py -s -v
+          python -m pytest test/test_google_maps_api.py -s -v --alluredir=reports
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
           KEY: ${{ secrets.KEY }}
