@@ -23,6 +23,12 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
+      - name: Checkout (copy) gh-pages repository to GitHub runner
+          uses: actions/checkout@v2
+          with:
+            ref: gh-pages
+            path: ./.github/gh-pages
+
       - name: Run tests
         run: |
           python -m pytest test/test_google_maps_api.py -s -v
