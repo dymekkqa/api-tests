@@ -40,7 +40,7 @@ jobs:
         run: |
           sudo mkdir -p allure-results/history
           ls -R $GITHUB_WORKSPACE/.github/gh-pages  # Проверка содержимого
-          sudo cp -R $GITHUB_WORKSPACE/.github/gh-pages/history/* allure-results/history/
+          sudo cp -R $GITHUB_WORKSPACE/.github/gh-pages/* allure-results/history/
 
       - name: Generate Allure report
         run: |
