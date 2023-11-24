@@ -1,6 +1,6 @@
 import requests
 import allure
-from util.logger import Logger
+from app.logger import Logger
 
 """ HTTP method's list """
 

@@ -7,7 +7,7 @@ tests/__pycache__
 .idea
 !logs
 logs/*.log
-utils/__pycache__
+app/__pycache__
 !reports
 reports/*.txt
 reposrts/*.png

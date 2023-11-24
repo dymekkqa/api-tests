@@ -1,13 +1,13 @@
-from util.http_methods import HttpMethods
 import os
 from dotenv import load_dotenv
+from app.http_methods import HttpMethods
 
 load_dotenv()
 
 """Google maps api's test methods"""
 
-base_url = os.getenv('base_url')
-key = os.getenv('key')
+BASE_URL = os.getenv('BASE_URL')
+KEY = os.getenv('KEY')
 
 
 class GoogleMapsApi:
@@ -32,7 +32,7 @@ class GoogleMapsApi:
             "language": "French-IN"
         }
         post_resource = '/maps/api/place/add/json'  # address for create new place on Google maps
-        post_url = f"{base_url}{post_resource}{key}"
+        post_url = f"{BASE_URL}{post_resource}{KEY}"
         result_new_place = HttpMethods.post(post_url, json_create_new_place)
         return result_new_place
 
@@ -41,7 +41,7 @@ class GoogleMapsApi:
         """Create new location's method"""
 
         get_resource = '/maps/api/place/get/json'  # address for get info about new place on Google maps
-        get_url = f"{base_url}{get_resource}{key}&place_id={place_id}"
+        get_url = f"{BASE_URL}{get_resource}{KEY}&place_id={place_id}"
         result_get = HttpMethods.get(get_url)
         return result_get
 
@@ -55,7 +55,7 @@ class GoogleMapsApi:
             "address": "100 Mickiewicz street, PL",  # new address for new location
             "key": "qaclick123"
         }
-        put_url = f"{base_url}{put_resource}{key}"
+        put_url = f"{BASE_URL}{put_resource}{KEY}"
         result_put = HttpMethods.put(put_url, json_update_new_place)
         return result_put
 
@@ -67,6 +67,6 @@ class GoogleMapsApi:
         json_delete = {
             "place_id": f"{place_id}"
         }
-        del_url = f"{base_url}{del_resource}{key}"
+        del_url = f"{BASE_URL}{del_resource}{KEY}"
         result = HttpMethods.delete(del_url, json_delete)
         return result
