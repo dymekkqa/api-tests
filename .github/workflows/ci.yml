@@ -27,3 +27,18 @@ jobs:
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
           KEY: ${{ secrets.KEY }}
+
+      - name: List contents of reports directory
+        run: ls -R reports
+
+      - name: Print the contents of allure-results directory
+        run: cat reports/allure-results/*
+
+      - name: Generate Allure report
+        run: allure generate reports/allure-results -o reports/allure-report
+
+      - name: Upload Allure report as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-report
+          path: reports/allure-report
