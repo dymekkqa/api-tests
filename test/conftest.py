@@ -1,5 +1,5 @@
 import pytest
-from util.my_api import GoogleMapsApi
+from app.my_api import GoogleMapsApi
 
 
 @pytest.fixture

@@ -1,8 +1,8 @@
 import allure
 
-from util.checking import Checking
-from util.my_api import GoogleMapsApi
-from util.schemas import Schemas
+from app.checking import Checking
+from app.my_api import GoogleMapsApi
+from app.schemas import Schemas
 
 
 @allure.epic("End-to-end test: Creating, Updating and Deleting new location")
