@@ -13,3 +13,9 @@ reports/*.txt
 reposrts/*.png
 reports/*.json
 reports/*.attach
+.pytest_cache
+.idea
+*.iml
+.env
+report
+allure-results
