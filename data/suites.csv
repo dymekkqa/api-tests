@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 02 12:21:42 GMT 2024","Tue Jan 02 12:21:45 GMT 2024","2917","test","test_google_maps_api","TestCreatePlace","","","Deleting new location by DELETE request","Deleting new location"
+"passed","Tue Jan 02 12:21:36 GMT 2024","Tue Jan 02 12:21:38 GMT 2024","1342","test","test_google_maps_api","TestCreatePlace","","","Create new location by POST request","Creating new location"
+"passed","Tue Jan 02 12:21:38 GMT 2024","Tue Jan 02 12:21:41 GMT 2024","2887","test","test_google_maps_api","TestCreatePlace","","","Updating new location by PUT request","Updating new location"

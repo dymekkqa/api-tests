@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "991f31cd1b7f",
+    "children" : [ {
+      "name" : "1-MainThread",
+      "children" : [ {
+        "name" : "Deleting new location by DELETE request",
+        "uid" : "bfc65995136886c0",
+        "parentUid" : "ce4443aaeb9f60e52b68f7ae510dffd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704198102428,
+          "stop" : 1704198105345,
+          "duration" : 2917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create new location by POST request",
+        "uid" : "6d6617d75367c2fc",
+        "parentUid" : "ce4443aaeb9f60e52b68f7ae510dffd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704198096770,
+          "stop" : 1704198098112,
+          "duration" : 1342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Updating new location by PUT request",
+        "uid" : "2041a93853813bfc",
+        "parentUid" : "ce4443aaeb9f60e52b68f7ae510dffd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704198098830,
+          "stop" : 1704198101717,
+          "duration" : 2887
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce4443aaeb9f60e52b68f7ae510dffd1"
+    } ],
+    "uid" : "7170c7db4ab2ffc0c6d1e8b8f48600c4"
+  } ],
+  "name" : "timeline"
+}

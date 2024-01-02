@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.test_google_maps_api",
+    "children" : [ {
+      "name" : "Create new location by POST request",
+      "uid" : "6d6617d75367c2fc",
+      "parentUid" : "2995aa128cf725330bb253355d9554d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704198096770,
+        "stop" : 1704198098112,
+        "duration" : 1342
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Updating new location by PUT request",
+      "uid" : "2041a93853813bfc",
+      "parentUid" : "2995aa128cf725330bb253355d9554d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704198098830,
+        "stop" : 1704198101717,
+        "duration" : 2887
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Deleting new location by DELETE request",
+      "uid" : "bfc65995136886c0",
+      "parentUid" : "2995aa128cf725330bb253355d9554d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704198102428,
+        "stop" : 1704198105345,
+        "duration" : 2917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.test_google_maps_api"
+  } ],
+  "name" : "packages"
+}

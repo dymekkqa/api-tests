@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "test_google_maps_api",
+      "children" : [ {
+        "name" : "TestCreatePlace",
+        "children" : [ {
+          "name" : "Create new location by POST request",
+          "uid" : "6d6617d75367c2fc",
+          "parentUid" : "f3d99b47ff63a5d907cdef437924361d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704198096770,
+            "stop" : 1704198098112,
+            "duration" : 1342
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Updating new location by PUT request",
+          "uid" : "2041a93853813bfc",
+          "parentUid" : "f3d99b47ff63a5d907cdef437924361d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704198098830,
+            "stop" : 1704198101717,
+            "duration" : 2887
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Deleting new location by DELETE request",
+          "uid" : "bfc65995136886c0",
+          "parentUid" : "f3d99b47ff63a5d907cdef437924361d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704198102428,
+            "stop" : 1704198105345,
+            "duration" : 2917
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f3d99b47ff63a5d907cdef437924361d"
+      } ],
+      "uid" : "5c835fd78cebcdf45a13ca43d3802642"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ],
+  "name" : "suites"
+}

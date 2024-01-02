@@ -1,0 +1,31 @@
+[ {
+  "uid" : "bfc65995136886c0",
+  "name" : "Deleting new location by DELETE request",
+  "time" : {
+    "start" : 1704198102428,
+    "stop" : 1704198105345,
+    "duration" : 2917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d6617d75367c2fc",
+  "name" : "Create new location by POST request",
+  "time" : {
+    "start" : 1704198096770,
+    "stop" : 1704198098112,
+    "duration" : 1342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2041a93853813bfc",
+  "name" : "Updating new location by PUT request",
+  "time" : {
+    "start" : 1704198098830,
+    "stop" : 1704198101717,
+    "duration" : 2887
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,48 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "End-to-end test: Creating, Updating and Deleting new location",
+    "children" : [ {
+      "name" : "Create new location by POST request",
+      "uid" : "6d6617d75367c2fc",
+      "parentUid" : "59c35760bb096b0ecd62553a06355819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704198096770,
+        "stop" : 1704198098112,
+        "duration" : 1342
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Updating new location by PUT request",
+      "uid" : "2041a93853813bfc",
+      "parentUid" : "59c35760bb096b0ecd62553a06355819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704198098830,
+        "stop" : 1704198101717,
+        "duration" : 2887
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Deleting new location by DELETE request",
+      "uid" : "bfc65995136886c0",
+      "parentUid" : "59c35760bb096b0ecd62553a06355819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704198102428,
+        "stop" : 1704198105345,
+        "duration" : 2917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "59c35760bb096b0ecd62553a06355819"
+  } ],
+  "name" : "behaviors"
+}

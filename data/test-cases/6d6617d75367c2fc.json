@@ -1,0 +1,177 @@
+{
+  "uid" : "6d6617d75367c2fc",
+  "name" : "Create new location by POST request",
+  "fullName" : "test.test_google_maps_api.TestCreatePlace#test_create_new_location",
+  "historyId" : "c2036cf73803462d042fb8dfca3c6b1c",
+  "time" : {
+    "start" : 1704198096770,
+    "stop" : 1704198098112,
+    "duration" : 1342
+  },
+  "description" : "Creating new location",
+  "descriptionHtml" : "<p>Creating new location</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "new_location",
+    "time" : {
+      "start" : 1704198096046,
+      "stop" : 1704198096769,
+      "duration" : 723
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST request",
+      "time" : {
+        "start" : 1704198096046,
+        "stop" : 1704198096767,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e08622ca9032c3",
+        "name" : "Step",
+        "source" : "e08622ca9032c3.attach",
+        "type" : "text/plain",
+        "size" : 508
+      }, {
+        "uid" : "a52bc815154b63f2",
+        "name" : "Step",
+        "source" : "a52bc815154b63f2.attach",
+        "type" : "text/plain",
+        "size" : 713
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Creating new location",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send GET request",
+      "time" : {
+        "start" : 1704198096770,
+        "stop" : 1704198098105,
+        "duration" : 1335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b70df38eccc13caf",
+        "name" : "Step",
+        "source" : "b70df38eccc13caf.attach",
+        "type" : "text/plain",
+        "size" : 271
+      }, {
+        "uid" : "e8d4f2ec1d8f67b5",
+        "name" : "Step",
+        "source" : "e8d4f2ec1d8f67b5.attach",
+        "type" : "text/plain",
+        "size" : 776
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response's status code 200",
+      "time" : {
+        "start" : 1704198098105,
+        "stop" : 1704198098105,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check response key's values address: 29, side layout, cohen 09",
+      "time" : {
+        "start" : 1704198098111,
+        "stop" : 1704198098111,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2d711c7ca3446db9",
+      "name" : "log",
+      "source" : "2d711c7ca3446db9.txt",
+      "type" : "text/plain",
+      "size" : 2401
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "End-to-end test: Creating, Updating and Deleting new location"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_google_maps_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreatePlace"
+  }, {
+    "name" : "host",
+    "value" : "991f31cd1b7f"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_google_maps_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d6617d75367c2fc.json",
+  "parameterValues" : [ ]
+}

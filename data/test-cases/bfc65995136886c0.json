@@ -1,0 +1,234 @@
+{
+  "uid" : "bfc65995136886c0",
+  "name" : "Deleting new location by DELETE request",
+  "fullName" : "test.test_google_maps_api.TestCreatePlace#test_delete_new_location",
+  "historyId" : "8072d7b8d92e3da277d50a6a180d27e8",
+  "time" : {
+    "start" : 1704198102428,
+    "stop" : 1704198105345,
+    "duration" : 2917
+  },
+  "description" : "Deleting new location",
+  "descriptionHtml" : "<p>Deleting new location</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "new_location",
+    "time" : {
+      "start" : 1704198101719,
+      "stop" : 1704198102427,
+      "duration" : 708
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST request",
+      "time" : {
+        "start" : 1704198101719,
+        "stop" : 1704198102425,
+        "duration" : 706
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "288ab78c868d9513",
+        "name" : "Step",
+        "source" : "288ab78c868d9513.attach",
+        "type" : "text/plain",
+        "size" : 508
+      }, {
+        "uid" : "104cccd3d6cd6f3e",
+        "name" : "Step",
+        "source" : "104cccd3d6cd6f3e.attach",
+        "type" : "text/plain",
+        "size" : 713
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Deleting new location",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send DELETE request",
+      "time" : {
+        "start" : 1704198102428,
+        "stop" : 1704198103975,
+        "duration" : 1547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a13b902863427745",
+        "name" : "Step",
+        "source" : "a13b902863427745.attach",
+        "type" : "text/plain",
+        "size" : 299
+      }, {
+        "uid" : "829cbaa2a5b33c5d",
+        "name" : "Step",
+        "source" : "829cbaa2a5b33c5d.attach",
+        "type" : "text/plain",
+        "size" : 533
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response's status code 200",
+      "time" : {
+        "start" : 1704198103975,
+        "stop" : 1704198103975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check response key's values status: OK",
+      "time" : {
+        "start" : 1704198103975,
+        "stop" : 1704198103975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Send GET request",
+      "time" : {
+        "start" : 1704198103975,
+        "stop" : 1704198105341,
+        "duration" : 1366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ddda50cce693b9f1",
+        "name" : "Step",
+        "source" : "ddda50cce693b9f1.attach",
+        "type" : "text/plain",
+        "size" : 271
+      }, {
+        "uid" : "717fbbbaa798f196",
+        "name" : "Step",
+        "source" : "717fbbbaa798f196.attach",
+        "type" : "text/plain",
+        "size" : 585
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response's status code 404",
+      "time" : {
+        "start" : 1704198105341,
+        "stop" : 1704198105341,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check response key's values msg: Get operation failed, looks like place_id  doesn't exists",
+      "time" : {
+        "start" : 1704198105341,
+        "stop" : 1704198105341,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "be86b3cadad1f747",
+      "name" : "log",
+      "source" : "be86b3cadad1f747.txt",
+      "type" : "text/plain",
+      "size" : 3110
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "End-to-end test: Creating, Updating and Deleting new location"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_google_maps_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreatePlace"
+  }, {
+    "name" : "host",
+    "value" : "991f31cd1b7f"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_google_maps_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfc65995136886c0.json",
+  "parameterValues" : [ ]
+}
