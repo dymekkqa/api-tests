@@ -1,45 +1,45 @@
 {
-  "uid" : "bfc65995136886c0",
-  "name" : "Deleting new location by DELETE request",
-  "fullName" : "test.test_google_maps_api.TestCreatePlace#test_delete_new_location",
-  "historyId" : "8072d7b8d92e3da277d50a6a180d27e8",
+  "uid" : "e2e7a523fd3e1eba",
+  "name" : "Updating new location by PUT request",
+  "fullName" : "test.test_google_maps_api.TestCreatePlace#test_update_new_location",
+  "historyId" : "85b42d371cabff1c9c69d62578b8b83e",
   "time" : {
-    "start" : 1704198102428,
-    "stop" : 1704198105345,
-    "duration" : 2917
+    "start" : 1704614678544,
+    "stop" : 1704614681232,
+    "duration" : 2688
   },
-  "description" : "Deleting new location",
-  "descriptionHtml" : "<p>Deleting new location</p>\n",
+  "description" : "Updating new location",
+  "descriptionHtml" : "<p>Updating new location</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "new_location",
     "time" : {
-      "start" : 1704198101719,
-      "stop" : 1704198102427,
-      "duration" : 708
+      "start" : 1704614677812,
+      "stop" : 1704614678544,
+      "duration" : 732
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Send POST request",
       "time" : {
-        "start" : 1704198101719,
-        "stop" : 1704198102425,
-        "duration" : 706
+        "start" : 1704614677812,
+        "stop" : 1704614678542,
+        "duration" : 730
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "288ab78c868d9513",
+        "uid" : "cc50b946c986bca6",
         "name" : "Step",
-        "source" : "288ab78c868d9513.attach",
+        "source" : "cc50b946c986bca6.attach",
         "type" : "text/plain",
         "size" : 508
       }, {
-        "uid" : "104cccd3d6cd6f3e",
+        "uid" : "dd2bde5ad7090448",
         "name" : "Step",
-        "source" : "104cccd3d6cd6f3e.attach",
+        "source" : "dd2bde5ad7090448.attach",
         "type" : "text/plain",
         "size" : 713
       } ],
@@ -57,29 +57,29 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "Deleting new location",
+    "description" : "Updating new location",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Send DELETE request",
+      "name" : "Send PUT request",
       "time" : {
-        "start" : 1704198102428,
-        "stop" : 1704198103975,
-        "duration" : 1547
+        "start" : 1704614678545,
+        "stop" : 1704614680021,
+        "duration" : 1476
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a13b902863427745",
+        "uid" : "1c581e0b12b3f446",
         "name" : "Step",
-        "source" : "a13b902863427745.attach",
+        "source" : "1c581e0b12b3f446.attach",
         "type" : "text/plain",
-        "size" : 299
+        "size" : 357
       }, {
-        "uid" : "829cbaa2a5b33c5d",
+        "uid" : "c678ddc477a92553",
         "name" : "Step",
-        "source" : "829cbaa2a5b33c5d.attach",
+        "source" : "c678ddc477a92553.attach",
         "type" : "text/plain",
-        "size" : 533
+        "size" : 556
       } ],
       "parameters" : [ ],
       "attachmentsCount" : 2,
@@ -89,8 +89,8 @@
     }, {
       "name" : "Check response's status code 200",
       "time" : {
-        "start" : 1704198103975,
-        "stop" : 1704198103975,
+        "start" : 1704614680021,
+        "stop" : 1704614680021,
         "duration" : 0
       },
       "status" : "passed",
@@ -102,10 +102,10 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Check response key's values status: OK",
+      "name" : "Check response key's values msg: Address successfully updated",
       "time" : {
-        "start" : 1704198103975,
-        "stop" : 1704198103975,
+        "start" : 1704614680022,
+        "stop" : 1704614680022,
         "duration" : 0
       },
       "status" : "passed",
@@ -119,24 +119,24 @@
     }, {
       "name" : "Send GET request",
       "time" : {
-        "start" : 1704198103975,
-        "stop" : 1704198105341,
-        "duration" : 1366
+        "start" : 1704614680022,
+        "stop" : 1704614681227,
+        "duration" : 1205
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "ddda50cce693b9f1",
+        "uid" : "668153b62b4afc83",
         "name" : "Step",
-        "source" : "ddda50cce693b9f1.attach",
+        "source" : "668153b62b4afc83.attach",
         "type" : "text/plain",
         "size" : 271
       }, {
-        "uid" : "717fbbbaa798f196",
+        "uid" : "f35322a7cb7aa5bd",
         "name" : "Step",
-        "source" : "717fbbbaa798f196.attach",
+        "source" : "f35322a7cb7aa5bd.attach",
         "type" : "text/plain",
-        "size" : 585
+        "size" : 776
       } ],
       "parameters" : [ ],
       "attachmentsCount" : 2,
@@ -144,10 +144,10 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Check response's status code 404",
+      "name" : "Check response's status code 200",
       "time" : {
-        "start" : 1704198105341,
-        "stop" : 1704198105341,
+        "start" : 1704614681227,
+        "stop" : 1704614681227,
         "duration" : 0
       },
       "status" : "passed",
@@ -159,10 +159,10 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Check response key's values msg: Get operation failed, looks like place_id  doesn't exists",
+      "name" : "Check response key's values address: 100 Mickiewicz street, PL",
       "time" : {
-        "start" : 1704198105341,
-        "stop" : 1704198105341,
+        "start" : 1704614681227,
+        "stop" : 1704614681227,
         "duration" : 0
       },
       "status" : "passed",
@@ -175,11 +175,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "be86b3cadad1f747",
+      "uid" : "205f67020d2122ea",
       "name" : "log",
-      "source" : "be86b3cadad1f747.txt",
+      "source" : "205f67020d2122ea.txt",
       "type" : "text/plain",
-      "size" : 3110
+      "size" : 3382
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 5,
@@ -202,7 +202,7 @@
     "value" : "TestCreatePlace"
   }, {
     "name" : "host",
-    "value" : "991f31cd1b7f"
+    "value" : "a65f6ee669a1"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -229,6 +229,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bfc65995136886c0.json",
+  "source" : "e2e7a523fd3e1eba.json",
   "parameterValues" : [ ]
 }

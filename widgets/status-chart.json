@@ -1,30 +1,30 @@
 [ {
-  "uid" : "bfc65995136886c0",
-  "name" : "Deleting new location by DELETE request",
-  "time" : {
-    "start" : 1704198102428,
-    "stop" : 1704198105345,
-    "duration" : 2917
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6d6617d75367c2fc",
-  "name" : "Create new location by POST request",
-  "time" : {
-    "start" : 1704198096770,
-    "stop" : 1704198098112,
-    "duration" : 1342
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2041a93853813bfc",
+  "uid" : "e2e7a523fd3e1eba",
   "name" : "Updating new location by PUT request",
   "time" : {
-    "start" : 1704198098830,
-    "stop" : 1704198101717,
-    "duration" : 2887
+    "start" : 1704614678544,
+    "stop" : 1704614681232,
+    "duration" : 2688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fb43d80743e9491",
+  "name" : "Create new location by POST request",
+  "time" : {
+    "start" : 1704614676567,
+    "stop" : 1704614677810,
+    "duration" : 1243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "346d19fae1d0d84b",
+  "name" : "Deleting new location by DELETE request",
+  "time" : {
+    "start" : 1704614681938,
+    "stop" : 1704614684622,
+    "duration" : 2684
   },
   "status" : "passed",
   "severity" : "normal"

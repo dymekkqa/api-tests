@@ -1,12 +1,12 @@
 {
-  "uid" : "6d6617d75367c2fc",
+  "uid" : "3fb43d80743e9491",
   "name" : "Create new location by POST request",
   "fullName" : "test.test_google_maps_api.TestCreatePlace#test_create_new_location",
   "historyId" : "c2036cf73803462d042fb8dfca3c6b1c",
   "time" : {
-    "start" : 1704198096770,
-    "stop" : 1704198098112,
-    "duration" : 1342
+    "start" : 1704614676567,
+    "stop" : 1704614677810,
+    "duration" : 1243
   },
   "description" : "Creating new location",
   "descriptionHtml" : "<p>Creating new location</p>\n",
@@ -16,30 +16,30 @@
   "beforeStages" : [ {
     "name" : "new_location",
     "time" : {
-      "start" : 1704198096046,
-      "stop" : 1704198096769,
-      "duration" : 723
+      "start" : 1704614675790,
+      "stop" : 1704614676566,
+      "duration" : 776
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Send POST request",
       "time" : {
-        "start" : 1704198096046,
-        "stop" : 1704198096767,
-        "duration" : 721
+        "start" : 1704614675790,
+        "stop" : 1704614676565,
+        "duration" : 775
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "e08622ca9032c3",
+        "uid" : "bd8f1c650f91dee4",
         "name" : "Step",
-        "source" : "e08622ca9032c3.attach",
+        "source" : "bd8f1c650f91dee4.attach",
         "type" : "text/plain",
         "size" : 508
       }, {
-        "uid" : "a52bc815154b63f2",
+        "uid" : "62a832d24e2a0ca9",
         "name" : "Step",
-        "source" : "a52bc815154b63f2.attach",
+        "source" : "62a832d24e2a0ca9.attach",
         "type" : "text/plain",
         "size" : 713
       } ],
@@ -62,22 +62,22 @@
     "steps" : [ {
       "name" : "Send GET request",
       "time" : {
-        "start" : 1704198096770,
-        "stop" : 1704198098105,
-        "duration" : 1335
+        "start" : 1704614676567,
+        "stop" : 1704614677803,
+        "duration" : 1236
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "b70df38eccc13caf",
+        "uid" : "a32e2b9978075afb",
         "name" : "Step",
-        "source" : "b70df38eccc13caf.attach",
+        "source" : "a32e2b9978075afb.attach",
         "type" : "text/plain",
         "size" : 271
       }, {
-        "uid" : "e8d4f2ec1d8f67b5",
+        "uid" : "32898164702cdba",
         "name" : "Step",
-        "source" : "e8d4f2ec1d8f67b5.attach",
+        "source" : "32898164702cdba.attach",
         "type" : "text/plain",
         "size" : 776
       } ],
@@ -89,8 +89,8 @@
     }, {
       "name" : "Check response's status code 200",
       "time" : {
-        "start" : 1704198098105,
-        "stop" : 1704198098105,
+        "start" : 1704614677803,
+        "stop" : 1704614677803,
         "duration" : 0
       },
       "status" : "passed",
@@ -104,8 +104,8 @@
     }, {
       "name" : "Check response key's values address: 29, side layout, cohen 09",
       "time" : {
-        "start" : 1704198098111,
-        "stop" : 1704198098111,
+        "start" : 1704614677809,
+        "stop" : 1704614677809,
         "duration" : 0
       },
       "status" : "passed",
@@ -118,9 +118,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "2d711c7ca3446db9",
+      "uid" : "a59e40b1894e3041",
       "name" : "log",
-      "source" : "2d711c7ca3446db9.txt",
+      "source" : "a59e40b1894e3041.txt",
       "type" : "text/plain",
       "size" : 2401
     } ],
@@ -145,7 +145,7 @@
     "value" : "TestCreatePlace"
   }, {
     "name" : "host",
-    "value" : "991f31cd1b7f"
+    "value" : "a65f6ee669a1"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -172,6 +172,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6d6617d75367c2fc.json",
+  "source" : "3fb43d80743e9491.json",
   "parameterValues" : [ ]
 }

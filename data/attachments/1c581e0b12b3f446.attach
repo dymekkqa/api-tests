@@ -1,9 +1,9 @@
 
 -----
 Test: test/test_google_maps_api.py::TestCreatePlace::test_update_new_location (call)
-Time: 2024-01-02 12:21:38.829889
+Time: 2024-01-07 08:04:38.544548
 Request method: PUT
 Request URL: https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
-Request body: {'place_id': '4c4a7a926b9ab8f745cec3fc5c247f5c', 'address': '100 Mickiewicz street, PL', 'key': 'qaclick123'}
+Request body: {'place_id': '2736ab07dbecf54541bbaa721644f556', 'address': '100 Mickiewicz street, PL', 'key': 'qaclick123'}
 
  

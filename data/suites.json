@@ -8,39 +8,39 @@
         "name" : "TestCreatePlace",
         "children" : [ {
           "name" : "Create new location by POST request",
-          "uid" : "6d6617d75367c2fc",
+          "uid" : "3fb43d80743e9491",
           "parentUid" : "f3d99b47ff63a5d907cdef437924361d",
           "status" : "passed",
           "time" : {
-            "start" : 1704198096770,
-            "stop" : 1704198098112,
-            "duration" : 1342
+            "start" : 1704614676567,
+            "stop" : 1704614677810,
+            "duration" : 1243
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Updating new location by PUT request",
-          "uid" : "2041a93853813bfc",
+          "uid" : "e2e7a523fd3e1eba",
           "parentUid" : "f3d99b47ff63a5d907cdef437924361d",
           "status" : "passed",
           "time" : {
-            "start" : 1704198098830,
-            "stop" : 1704198101717,
-            "duration" : 2887
+            "start" : 1704614678544,
+            "stop" : 1704614681232,
+            "duration" : 2688
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Deleting new location by DELETE request",
-          "uid" : "bfc65995136886c0",
+          "uid" : "346d19fae1d0d84b",
           "parentUid" : "f3d99b47ff63a5d907cdef437924361d",
           "status" : "passed",
           "time" : {
-            "start" : 1704198102428,
-            "stop" : 1704198105345,
-            "duration" : 2917
+            "start" : 1704614681938,
+            "stop" : 1704614684622,
+            "duration" : 2684
           },
           "flaky" : false,
           "newFailed" : false,

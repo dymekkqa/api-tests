@@ -1,52 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "991f31cd1b7f",
+    "name" : "a65f6ee669a1",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Deleting new location by DELETE request",
-        "uid" : "bfc65995136886c0",
-        "parentUid" : "ce4443aaeb9f60e52b68f7ae510dffd1",
+        "name" : "Updating new location by PUT request",
+        "uid" : "e2e7a523fd3e1eba",
+        "parentUid" : "ab16c7f2f5d6e86af9530880498fbf57",
         "status" : "passed",
         "time" : {
-          "start" : 1704198102428,
-          "stop" : 1704198105345,
-          "duration" : 2917
+          "start" : 1704614678544,
+          "stop" : 1704614681232,
+          "duration" : 2688
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Create new location by POST request",
-        "uid" : "6d6617d75367c2fc",
-        "parentUid" : "ce4443aaeb9f60e52b68f7ae510dffd1",
+        "uid" : "3fb43d80743e9491",
+        "parentUid" : "ab16c7f2f5d6e86af9530880498fbf57",
         "status" : "passed",
         "time" : {
-          "start" : 1704198096770,
-          "stop" : 1704198098112,
-          "duration" : 1342
+          "start" : 1704614676567,
+          "stop" : 1704614677810,
+          "duration" : 1243
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Updating new location by PUT request",
-        "uid" : "2041a93853813bfc",
-        "parentUid" : "ce4443aaeb9f60e52b68f7ae510dffd1",
+        "name" : "Deleting new location by DELETE request",
+        "uid" : "346d19fae1d0d84b",
+        "parentUid" : "ab16c7f2f5d6e86af9530880498fbf57",
         "status" : "passed",
         "time" : {
-          "start" : 1704198098830,
-          "stop" : 1704198101717,
-          "duration" : 2887
+          "start" : 1704614681938,
+          "stop" : 1704614684622,
+          "duration" : 2684
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ce4443aaeb9f60e52b68f7ae510dffd1"
+      "uid" : "ab16c7f2f5d6e86af9530880498fbf57"
     } ],
-    "uid" : "7170c7db4ab2ffc0c6d1e8b8f48600c4"
+    "uid" : "ba1d088a2e7a763f3552c11f8b3350d3"
   } ],
   "name" : "timeline"
 }

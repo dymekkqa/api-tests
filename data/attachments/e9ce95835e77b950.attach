@@ -1,9 +1,9 @@
 
 -----
 Test: test/test_google_maps_api.py::TestCreatePlace::test_delete_new_location (call)
-Time: 2024-01-02 12:21:42.427960
+Time: 2024-01-07 08:04:41.937976
 Request method: DELETE
 Request URL: https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
-Request body: {'place_id': 'ced885d941bd14da23dba232f9e282cc'}
+Request body: {'place_id': '472f520185c5c7c01c3ac8511e40a482'}
 
  
